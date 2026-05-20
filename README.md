@@ -1,19 +1,45 @@
-# CodeAlpha Web Scraping Project
+👇
 
-## 📌 Description
-This project extracts quotes from a website using Python.
+📊 Exploratory Data Analysis (EDA) – CodeAlpha Project
+📌 Description
 
-## 🛠️ Technologies Used
-- Python
-- Requests
-- BeautifulSoup
-- Pandas
+This project focuses on analyzing a dataset to find patterns, structure, and meaningful insights using Exploratory Data Analysis techniques.
 
-## 📊 Output
-The extracted data is stored in a CSV file named `quotes.csv`.
+🧠 Steps
+Loaded dataset using Pandas
+Checked dataset structure and data types
+Identified missing values
+Performed statistical analysis
+Visualized data using graphs
+Generated key insights from the dataset
+🛠️ Technologies Used
 
-## ▶️ How to Run
-1. Install libraries:
-   pip install requests beautifulsoup4 pandas
-2. Run the script:
-   python scraping.py
+Python
+Pandas
+Matplotlib
+Seaborn
+
+📊 Output
+
+The analysis helps in understanding:
+
+Data distribution
+Patterns in the dataset
+Relationships between variables
+Data quality issues
+▶️ How to Run
+
+Install required libraries:
+
+pip install pandas matplotlib seaborn
+
+Run the script:
+
+python eda.py
+📁 Files Used
+eda.py → Main analysis script
+quotes.csv → Dataset file
+quotes_cleaned.csv → Cleaned dataset (if used)
+📌 Project Title (Summary)
+
+Exploratory Data Analysis (EDA)
