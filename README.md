@@ -1,36 +1,23 @@
-📊 CodeAlpha EDA Project
+🌐 Task 1: Web Scraping
+
 📌 Description
 
-This project performs Exploratory Data Analysis (EDA) on a dataset to find patterns, structure, and insights.
+In this task, data is extracted from a website using Python web scraping techniques and stored in a structured format.
 
-🛠️ Technologies Used
+🛠️ Tools Used
 
 Python
+Requests
+BeautifulSoup
 Pandas
-Matplotlib
-Seaborn
 
-📊 Steps
-Loaded dataset
-Checked structure
-Found missing values
-Performed data analysis
-Visualized data
-Generated insights
-📊 Output
+⚙️ Process
 
-The analysis helps to understand:
+Sent HTTP request to website
+Extracted quotes using HTML parsing
+Converted data into structured format
+Saved data into CSV file
 
-Data patterns
-Data distribution
-Relationships between values
-Data quality issues
-▶️ How to Run
+📁 Output
 
-Install libraries:
-
-pip install pandas matplotlib seaborn
-
-Run the script:
-
-python eda.py
+quotes.csv generated
