@@ -1,17 +1,8 @@
-👇
-
-📊 Exploratory Data Analysis (EDA) – CodeAlpha Project
+📊 CodeAlpha EDA Project
 📌 Description
 
-This project focuses on analyzing a dataset to find patterns, structure, and meaningful insights using Exploratory Data Analysis techniques.
+This project performs Exploratory Data Analysis (EDA) on a dataset to find patterns, structure, and insights.
 
-🧠 Steps
-Loaded dataset using Pandas
-Checked dataset structure and data types
-Identified missing values
-Performed statistical analysis
-Visualized data using graphs
-Generated key insights from the dataset
 🛠️ Technologies Used
 
 Python
@@ -19,27 +10,27 @@ Pandas
 Matplotlib
 Seaborn
 
+📊 Steps
+Loaded dataset
+Checked structure
+Found missing values
+Performed data analysis
+Visualized data
+Generated insights
 📊 Output
 
-The analysis helps in understanding:
+The analysis helps to understand:
 
+Data patterns
 Data distribution
-Patterns in the dataset
-Relationships between variables
+Relationships between values
 Data quality issues
 ▶️ How to Run
 
-Install required libraries:
+Install libraries:
 
 pip install pandas matplotlib seaborn
 
 Run the script:
 
 python eda.py
-📁 Files Used
-eda.py → Main analysis script
-quotes.csv → Dataset file
-quotes_cleaned.csv → Cleaned dataset (if used)
-📌 Project Title (Summary)
-
-Exploratory Data Analysis (EDA)
